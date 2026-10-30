@@ -1,0 +1,14 @@
+/out/
+/build/
+/artifacts/
+/cache/
+__pycache__/
+*.pyc
+*.log
+*.jou
+*.o
+*.obj
+*.d
+*.map
+.Xil/
+.DS_Store

@@ -1,0 +1,445 @@
+{
+  "schema": 1,
+  "part": "xc7z020clg484-1",
+  "state": "candidate-not-hardware-tested",
+  "numbering": "Module JP1 and post-adapter connector match by number; NOT raw board J5/J6 numbers",
+  "board_source": {
+    "path": "D:\\FPGA_Project\\Smart_ZYNQ_SP2_information\\SmartZynq_SP2_Schematic_V1d3B_20260413.pdf.pdf",
+    "sha256": "65ef502b17295f92a50d6266a28d26b19c71c580ca69324d65dd9a5a4f71937e"
+  },
+  "user_image": {
+    "snapshot": "artifacts/adc-reference/user-pinmap-corrected.png",
+    "sha256": "8936b7579ebd0d2429b1ed99f0949999a0f15017415ca96eeced9b3f25ccd7cb",
+    "supersedes": "previous user image; T22/C18 and NC39/40 corrected"
+  },
+  "banks": {
+    "33": {
+      "base_header": "J6",
+      "io_voltage": "3.3V user-confirmed; not physically measured",
+      "signals": [
+        {
+          "port": "ad_clk_1",
+          "module_pin": 18,
+          "adapter_pin": 18,
+          "base_pin": 14,
+          "package_pin": "Y19",
+          "net": "GPIO_Y19_L11P"
+        },
+        {
+          "port": "ad_clk_2",
+          "module_pin": 32,
+          "adapter_pin": 32,
+          "base_pin": 28,
+          "package_pin": "AB17",
+          "net": "GPIO_AB17_L17N"
+        },
+        {
+          "port": "ad_data_1[0]",
+          "module_pin": 6,
+          "adapter_pin": 6,
+          "base_pin": 2,
+          "package_pin": "T22",
+          "net": "GPIO_T22_L2P"
+        },
+        {
+          "port": "ad_data_1[1]",
+          "module_pin": 5,
+          "adapter_pin": 5,
+          "base_pin": 1,
+          "package_pin": "U22",
+          "net": "GPIO_U22_L2N"
+        },
+        {
+          "port": "ad_data_1[2]",
+          "module_pin": 8,
+          "adapter_pin": 8,
+          "base_pin": 4,
+          "package_pin": "V22",
+          "net": "GPIO_V22_L3P"
+        },
+        {
+          "port": "ad_data_1[3]",
+          "module_pin": 7,
+          "adapter_pin": 7,
+          "base_pin": 3,
+          "package_pin": "W22",
+          "net": "GPIO_W22_L3N"
+        },
+        {
+          "port": "ad_data_1[4]",
+          "module_pin": 10,
+          "adapter_pin": 10,
+          "base_pin": 6,
+          "package_pin": "Y20",
+          "net": "GPIO_Y20_L9P"
+        },
+        {
+          "port": "ad_data_1[5]",
+          "module_pin": 9,
+          "adapter_pin": 9,
+          "base_pin": 5,
+          "package_pin": "Y21",
+          "net": "GPIO_Y21_L9N"
+        },
+        {
+          "port": "ad_data_1[6]",
+          "module_pin": 12,
+          "adapter_pin": 12,
+          "base_pin": 8,
+          "package_pin": "AA22",
+          "net": "GPIO_AA22_L7P"
+        },
+        {
+          "port": "ad_data_1[7]",
+          "module_pin": 11,
+          "adapter_pin": 11,
+          "base_pin": 7,
+          "package_pin": "AB22",
+          "net": "GPIO_AB22_L7N"
+        },
+        {
+          "port": "ad_data_1[8]",
+          "module_pin": 14,
+          "adapter_pin": 14,
+          "base_pin": 10,
+          "package_pin": "AA21",
+          "net": "GPIO_AA21_L8P"
+        },
+        {
+          "port": "ad_data_1[9]",
+          "module_pin": 13,
+          "adapter_pin": 13,
+          "base_pin": 9,
+          "package_pin": "AB21",
+          "net": "GPIO_AB21_L8N"
+        },
+        {
+          "port": "ad_data_2[0]",
+          "module_pin": 20,
+          "adapter_pin": 20,
+          "base_pin": 16,
+          "package_pin": "AA16",
+          "net": "GPIO_AA16_L18P"
+        },
+        {
+          "port": "ad_data_2[1]",
+          "module_pin": 19,
+          "adapter_pin": 19,
+          "base_pin": 15,
+          "package_pin": "AB16",
+          "net": "GPIO_AB16_L18N"
+        },
+        {
+          "port": "ad_data_2[2]",
+          "module_pin": 22,
+          "adapter_pin": 22,
+          "base_pin": 18,
+          "package_pin": "AA18",
+          "net": "GPIO_AA18_L12N"
+        },
+        {
+          "port": "ad_data_2[3]",
+          "module_pin": 21,
+          "adapter_pin": 21,
+          "base_pin": 17,
+          "package_pin": "Y18",
+          "net": "GPIO_Y18_L12P"
+        },
+        {
+          "port": "ad_data_2[4]",
+          "module_pin": 24,
+          "adapter_pin": 24,
+          "base_pin": 20,
+          "package_pin": "AB15",
+          "net": "GPIO_AB15_L24N"
+        },
+        {
+          "port": "ad_data_2[5]",
+          "module_pin": 23,
+          "adapter_pin": 23,
+          "base_pin": 19,
+          "package_pin": "AB14",
+          "net": "GPIO_AB14_L24P"
+        },
+        {
+          "port": "ad_data_2[6]",
+          "module_pin": 26,
+          "adapter_pin": 26,
+          "base_pin": 22,
+          "package_pin": "AA13",
+          "net": "GPIO_AA13_L23N"
+        },
+        {
+          "port": "ad_data_2[7]",
+          "module_pin": 25,
+          "adapter_pin": 25,
+          "base_pin": 21,
+          "package_pin": "Y13",
+          "net": "GPIO_Y13_L23P"
+        },
+        {
+          "port": "ad_data_2[8]",
+          "module_pin": 28,
+          "adapter_pin": 28,
+          "base_pin": 24,
+          "package_pin": "W13",
+          "net": "GPIO_W13_L20N"
+        },
+        {
+          "port": "ad_data_2[9]",
+          "module_pin": 27,
+          "adapter_pin": 27,
+          "base_pin": 23,
+          "package_pin": "V13",
+          "net": "GPIO_V13_L20P"
+        },
+        {
+          "port": "ad_oe_1",
+          "module_pin": 15,
+          "adapter_pin": 15,
+          "base_pin": 11,
+          "package_pin": "AB19",
+          "net": "GPIO_AB19_L10P"
+        },
+        {
+          "port": "ad_oe_2",
+          "module_pin": 29,
+          "adapter_pin": 29,
+          "base_pin": 25,
+          "package_pin": "W18",
+          "net": "GPIO_W18_L13N"
+        },
+        {
+          "port": "ad_otr_1",
+          "module_pin": 16,
+          "adapter_pin": 16,
+          "base_pin": 12,
+          "package_pin": "AB20",
+          "net": "GPIO_AB20_L10N"
+        },
+        {
+          "port": "ad_otr_2",
+          "module_pin": 30,
+          "adapter_pin": 30,
+          "base_pin": 26,
+          "package_pin": "W17",
+          "net": "GPIO_W17_L13P"
+        }
+      ]
+    },
+    "35": {
+      "base_header": "J5",
+      "io_voltage": "3.3V user-confirmed; not physically measured",
+      "signals": [
+        {
+          "port": "ad_clk_1",
+          "module_pin": 18,
+          "adapter_pin": 18,
+          "base_pin": 27,
+          "package_pin": "D20",
+          "net": "GPIO_D20_L14P"
+        },
+        {
+          "port": "ad_clk_2",
+          "module_pin": 32,
+          "adapter_pin": 32,
+          "base_pin": 13,
+          "package_pin": "C17",
+          "net": "GPIO_C17_L11P"
+        },
+        {
+          "port": "ad_data_1[0]",
+          "module_pin": 6,
+          "adapter_pin": 6,
+          "base_pin": 39,
+          "package_pin": "G15",
+          "net": "GPIO_G15_L4P"
+        },
+        {
+          "port": "ad_data_1[1]",
+          "module_pin": 5,
+          "adapter_pin": 5,
+          "base_pin": 40,
+          "package_pin": "G16",
+          "net": "GPIO_G16_L4N"
+        },
+        {
+          "port": "ad_data_1[2]",
+          "module_pin": 8,
+          "adapter_pin": 8,
+          "base_pin": 37,
+          "package_pin": "E16",
+          "net": "GPIO_E16_L1N"
+        },
+        {
+          "port": "ad_data_1[3]",
+          "module_pin": 7,
+          "adapter_pin": 7,
+          "base_pin": 38,
+          "package_pin": "F16",
+          "net": "GPIO_F16_L1P"
+        },
+        {
+          "port": "ad_data_1[4]",
+          "module_pin": 10,
+          "adapter_pin": 10,
+          "base_pin": 35,
+          "package_pin": "D18",
+          "net": "GPIO_D18_L12P"
+        },
+        {
+          "port": "ad_data_1[5]",
+          "module_pin": 9,
+          "adapter_pin": 9,
+          "base_pin": 36,
+          "package_pin": "C19",
+          "net": "GPIO_C19_L12N"
+        },
+        {
+          "port": "ad_data_1[6]",
+          "module_pin": 12,
+          "adapter_pin": 12,
+          "base_pin": 33,
+          "package_pin": "D15",
+          "net": "GPIO_D15_L3N"
+        },
+        {
+          "port": "ad_data_1[7]",
+          "module_pin": 11,
+          "adapter_pin": 11,
+          "base_pin": 34,
+          "package_pin": "E15",
+          "net": "GPIO_E15_L3P"
+        },
+        {
+          "port": "ad_data_1[8]",
+          "module_pin": 14,
+          "adapter_pin": 14,
+          "base_pin": 31,
+          "package_pin": "D17",
+          "net": "GPIO_D17_L2N"
+        },
+        {
+          "port": "ad_data_1[9]",
+          "module_pin": 13,
+          "adapter_pin": 13,
+          "base_pin": 32,
+          "package_pin": "D16",
+          "net": "GPIO_D16_L2P"
+        },
+        {
+          "port": "ad_data_2[0]",
+          "module_pin": 20,
+          "adapter_pin": 20,
+          "base_pin": 25,
+          "package_pin": "A17",
+          "net": "GPIO_A17_L9N"
+        },
+        {
+          "port": "ad_data_2[1]",
+          "module_pin": 19,
+          "adapter_pin": 19,
+          "base_pin": 26,
+          "package_pin": "A16",
+          "net": "GPIO_A16_L9P"
+        },
+        {
+          "port": "ad_data_2[2]",
+          "module_pin": 22,
+          "adapter_pin": 22,
+          "base_pin": 23,
+          "package_pin": "B17",
+          "net": "GPIO_B17_L8N"
+        },
+        {
+          "port": "ad_data_2[3]",
+          "module_pin": 21,
+          "adapter_pin": 21,
+          "base_pin": 24,
+          "package_pin": "B16",
+          "net": "GPIO_B16_L8P"
+        },
+        {
+          "port": "ad_data_2[4]",
+          "module_pin": 24,
+          "adapter_pin": 24,
+          "base_pin": 21,
+          "package_pin": "B22",
+          "net": "GPIO_B22_L18N"
+        },
+        {
+          "port": "ad_data_2[5]",
+          "module_pin": 23,
+          "adapter_pin": 23,
+          "base_pin": 22,
+          "package_pin": "B21",
+          "net": "GPIO_B21_L18P"
+        },
+        {
+          "port": "ad_data_2[6]",
+          "module_pin": 26,
+          "adapter_pin": 26,
+          "base_pin": 19,
+          "package_pin": "D22",
+          "net": "GPIO_D22_L16P"
+        },
+        {
+          "port": "ad_data_2[7]",
+          "module_pin": 25,
+          "adapter_pin": 25,
+          "base_pin": 20,
+          "package_pin": "C22",
+          "net": "GPIO_C22_L16N"
+        },
+        {
+          "port": "ad_data_2[8]",
+          "module_pin": 28,
+          "adapter_pin": 28,
+          "base_pin": 17,
+          "package_pin": "E20",
+          "net": "GPIO_E20_L21N"
+        },
+        {
+          "port": "ad_data_2[9]",
+          "module_pin": 27,
+          "adapter_pin": 27,
+          "base_pin": 18,
+          "package_pin": "E19",
+          "net": "GPIO_E19_L21P"
+        },
+        {
+          "port": "ad_oe_1",
+          "module_pin": 15,
+          "adapter_pin": 15,
+          "base_pin": 30,
+          "package_pin": "C15",
+          "net": "GPIO_C15_L7P"
+        },
+        {
+          "port": "ad_oe_2",
+          "module_pin": 29,
+          "adapter_pin": 29,
+          "base_pin": 16,
+          "package_pin": "F19",
+          "net": "GPIO_F19_L20N"
+        },
+        {
+          "port": "ad_otr_1",
+          "module_pin": 16,
+          "adapter_pin": 16,
+          "base_pin": 29,
+          "package_pin": "B15",
+          "net": "GPIO_B15_L7N"
+        },
+        {
+          "port": "ad_otr_2",
+          "module_pin": 30,
+          "adapter_pin": 30,
+          "base_pin": 15,
+          "package_pin": "G19",
+          "net": "GPIO_G19_L20P"
+        }
+      ]
+    }
+  }
+}

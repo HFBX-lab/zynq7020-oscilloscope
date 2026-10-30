@@ -1,0 +1,25 @@
+{
+  "family": "SP2 UI Sans",
+  "original_family": "Noto Sans SC",
+  "license": "SIL OFL 1.1",
+  "source_sha256": "a2b93e6c2db05d6bbbf6f27d413ec73269735b7b679019c8a5aa9670ff0ffbf2",
+  "subset_sha256": "6011fa5d19d35a031e780f5350e934162d4e9e45104bfaa63a9162f4c30543be",
+  "fonttools_version": "4.63.0",
+  "converter_version": "1.5.3",
+  "unicode_count": 366,
+  "non_ascii_symbols": "µΔ–、。一三上下不中为主于交仅仍代仪件份位低体余作使供保信倒候值偏停储先入全关内写准减函分刷刻前剩加动勿升单占卡压原去参双发取受变叠口只可号合后周和响器噪回围在均坦垂域基声复外大失始字存完定容宽小尚峰工差已带常幅平度开异式弦归当录形影待快态总恢情成或执抗拔拟持按掉操支改放效数整文断新方无时明显暂更最有期未本机条析查标校样格检模次止正比水没沿法波流测消深混清游源滤演点照状率理用电留直矩短确示程稍稳空窗等简管系线统编网置考脉自色范藏行表衰角触言计认记设试详语误请读谱负败超足轴载较输辨边过运返选通道采重量长闭间降限除隐隔集零靠页须频默，：；",
+  "outputs": {
+    "src/fonts/scope_font_14.c": {
+      "sha256": "0ed7e1fa05b12d7fd8d35cba41fc12f46dda51335172b43ad1e252c0609fec50",
+      "bytes": 221270
+    },
+    "src/fonts/scope_font_16.c": {
+      "sha256": "43ef9ff1fad890fad33a28f2015b4381f93017a32f49ae9d95d85202b093620c",
+      "bytes": 267447
+    },
+    "src/fonts/scope_font_24.c": {
+      "sha256": "207c0f2ff22f06120f72b4bdfeb1299041816db92d29280f975f257bdc03503d",
+      "bytes": 515780
+    }
+  }
+}

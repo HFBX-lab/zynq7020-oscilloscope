@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.20)
+project(SP2StorageBootFSBL C ASM)
+set(CMAKE_C_STANDARD 11)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+file(GLOB SOURCES CONFIGURE_DEPENDS "${CMAKE_SOURCE_DIR}/source/*.c" "${CMAKE_SOURCE_DIR}/source/*.S")
+add_executable(fsbl ${SOURCES})
+target_include_directories(fsbl PRIVATE source bsp/include)
+target_compile_definitions(fsbl PRIVATE FSBL_DEBUG_INFO)
+target_compile_options(fsbl PRIVATE -O2 -g -Wall -Wextra -Werror -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -ffunction-sections -fdata-sections)
+target_link_directories(fsbl PRIVATE "${CMAKE_SOURCE_DIR}/bsp/lib")
+target_link_options(fsbl PRIVATE -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+ "-specs=${CMAKE_SOURCE_DIR}/source/Xilinx.spec" "-Wl,-T,${CMAKE_SOURCE_DIR}/source/lscript.ld"
+ "-Wl,-Map,${CMAKE_BINARY_DIR}/fsbl.map" -Wl,--gc-sections)
+target_link_libraries(fsbl PRIVATE -Wl,--start-group xilffs xil gcc c m -Wl,--end-group)
+set_target_properties(fsbl PROPERTIES OUTPUT_NAME "fsbl" SUFFIX ".elf")

@@ -1,0 +1,42 @@
+{
+  "state": "verified-offline-public-code-package",
+  "date": "2026-10-30",
+  "hardware_accessed": false,
+  "original_workspace_modified": false,
+  "accepted_release_binaries_unchanged": true,
+  "checks": {
+    "host": {
+      "state": "verified-offline",
+      "log_sha256": "54B377AA1201323DA4F60DF482550840AAB34BBE83E7A7DB55661C2497CD7D0F",
+      "compiler_warnings": 0,
+      "compiler_errors": 0,
+      "ctests": 33
+    },
+    "application": {
+      "state": "verified-offline",
+      "log_sha256": "C797F75F95BA3BEC555C4BF95610C5232BDE2C2220591AE4660338C42D5F25AF",
+      "compiler_warnings": 0,
+      "compiler_errors": 0
+    },
+    "fsbl": {
+      "state": "verified-offline",
+      "log_sha256": "D6A3D11C2FB58A9460B73270785E146020B9C8C021B591F62916614C1BBE6C8D",
+      "compiler_warnings": 0,
+      "compiler_errors": 0
+    },
+    "boot": {
+      "state": "verified-offline",
+      "log_sha256": "ED2EC87575669ED26A27C986890FDEDFA0CCCBBAC11F111B9223D43E5B17390A",
+      "compiler_warnings": 0,
+      "compiler_errors": 0,
+      "matches_accepted_BOOT_byte_for_byte": true,
+      "sha256": "23F6B7E7EA62BB6A6CE6716B1F6D0E78F46D7DB213AA1DD258C17C0C2171753C"
+    }
+  },
+  "limitations": [
+    "PL implementation/platform generation were not repeated for packaging.",
+    "Vitis/Vivado 2020.2 ARM/hardware paths must be ASCII without spaces.",
+    "Historical evidence scripts require their original data/device configuration; use tools/build.py for portable offline builds.",
+    "Relocated rebuilt ELFs differ in debug paths and are not newly board-accepted firmware."
+  ]
+}

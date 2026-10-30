@@ -1,0 +1,26 @@
+[
+  {
+    "file": "docs/images/time-domain.png",
+    "source_run": "20261028-214640-2542-in2",
+    "source_filename": "cal-ac-50k-1-cic6m25-frame.png",
+    "sha256": "b2eb3b552d59afb3bb709bc9953f9647a3a000f74af67479a94a35507b70b380",
+    "type": "board-framebuffer-export-not-physical-photo",
+    "firmware": "M7 calibration predecessor; same PL and calibration profile as final M5"
+  },
+  {
+    "file": "docs/images/fft.png",
+    "source_run": "20261028-214640-2542-in2",
+    "source_filename": "fft-cal-hann-frame.png",
+    "sha256": "1558f87b3f12ef06589b22cf085552d1521649622f50666cdf596393a15f59d5",
+    "type": "board-framebuffer-export-not-physical-photo",
+    "firmware": "M7 calibration predecessor; same PL and calibration profile as final M5"
+  },
+  {
+    "file": "docs/images/5mhz-engineering-point.png",
+    "source_run": "20261028-214640-2542-in2",
+    "source_filename": "cal-freq-5m-raw50m-frame.png",
+    "sha256": "4460f4759b823506cab61c61158f641ca725853b8229c8b13e06c517e204c8e2",
+    "type": "board-framebuffer-export-not-physical-photo",
+    "firmware": "M7 calibration predecessor; same PL and calibration profile as final M5"
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "state": "verified-board-results-summary",
+  "reference": "signal-generator-setpoint-no-independent-meter-or-scope",
+  "calibration_profile": "2b474854",
+  "calibration_date": "2026-10-28",
+  "final_storage_boot_date": "2026-10-29",
+  "channels": {
+    "IN1": {
+      "dc_max_error_mV": 4.533,
+      "vpp_50khz_V": 1.000918,
+      "vpp_5mhz_V": 1.019112,
+      "relative_5mhz_db": 0.156,
+      "small_signal_0_2Vpp_error_percent": [
+        2.03,
+        2.13
+      ],
+      "4Vpp_dc_error_mV": [
+        -26.24,
+        -24.32
+      ]
+    },
+    "IN2": {
+      "dc_max_error_mV": 6.594,
+      "vpp_50khz_V": 1.002275,
+      "vpp_5mhz_V": 1.007149,
+      "relative_5mhz_db": 0.042,
+      "small_signal_0_2Vpp_error_percent": [
+        5.19,
+        5.26
+      ],
+      "4Vpp_dc_error_mV": [
+        -22.46,
+        -20.95
+      ]
+    }
+  },
+  "storage": {
+    "formal_tf_transactions": 14,
+    "exports": 12,
+    "true_power_cycle_retention": "passed",
+    "parameter_restore": "manual",
+    "RAM_slots": "volatile"
+  },
+  "qspi": {
+    "true_cold_start": "passed",
+    "post_cold_session_readonly": true,
+    "boot_mode": 1,
+    "abi": 7,
+    "id_start": 965,
+    "id_end": 1042,
+    "observation_seconds": 12.4779,
+    "full_session_diagnostic_count": 21,
+    "full_session_approx_seconds": 20.319,
+    "dma_errors": 0
+  },
+  "limitations": [
+    "5MHz single engineering response point, not full bandwidth/PVT certification",
+    "small-signal amplitude and amplitude-dependent DC residual",
+    "ripple cause not established",
+    "external clock pulse-width/PVT and temperature drift remain"
+  ]
+}

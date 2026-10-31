@@ -1,4 +1,4 @@
-/* Candidate platform only. Running requires separately authorized RAM/JTAG loading.
+/* Internal-test platform; load the matching bitstream and ELF through JTAG.
  * This tests an INTERNAL DIGITAL source, not a connected ADC or analog signal. */
 #include "adc_abi.h"
 #include "adc_format.h"

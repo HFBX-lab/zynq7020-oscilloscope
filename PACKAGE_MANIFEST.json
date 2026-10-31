@@ -24,8 +24,8 @@
     },
     {
       "path": "BUILD.md",
-      "bytes": 5212,
-      "sha256": "965FD94DB3E30A001E7F41D6E3F6A291B4FCCD14E7E0FD6B11D25280686CE822"
+      "bytes": 5054,
+      "sha256": "C298166FEEA4EC54A73C6B8128BBC313DD7C51612C0FCBA772D47D8BEFCBEB8B"
     },
     {
       "path": "CMakeLists.txt",
@@ -39,13 +39,13 @@
     },
     {
       "path": "docs/architecture.md",
-      "bytes": 3026,
-      "sha256": "885B5F1E361C26055F5A6FD6C31A73CB2511DC4AFF49A0535BFF7626CB2B7351"
+      "bytes": 2943,
+      "sha256": "0959A94429BA4240AC91188DE9BEFB53CBCFF357B20FFF3E91C0E364880E6D9F"
     },
     {
       "path": "docs/demo.md",
-      "bytes": 1938,
-      "sha256": "F305F5A59566FA435A3EA1AD373B92C905ADD3B1A20BEF640F08D2F7F2923836"
+      "bytes": 1772,
+      "sha256": "9A2CC0DBD993BDA243F02E8FE4941135C7DFDF5AC3C7AF8C203E755A255FBA44"
     },
     {
       "path": "docs/images/5mhz-engineering-point.png",
@@ -79,8 +79,8 @@
     },
     {
       "path": "docs/verified-specs.md",
-      "bytes": 2854,
-      "sha256": "62D236A5A9784AEBE2BC278EE921836ABF35027982C551795DCC0CBEACCB2DD3"
+      "bytes": 2877,
+      "sha256": "4B2BE6F7F5B944131921554A47BDC37342F45AB2773358EF28F23D04F82998F8"
     },
     {
       "path": "firmware/acq_ui/build.ps1",
@@ -104,8 +104,8 @@
     },
     {
       "path": "firmware/adc/app.c",
-      "bytes": 5614,
-      "sha256": "2DBA46F91CC7BCD7C7ED5BBFD29B2D2F37378C75D9AC47BAC61C9AE13472C37D"
+      "bytes": 5606,
+      "sha256": "C6FB71D77D67C519AF56ADD43DC12117E11A6CF37C7800C14003F07973B07109"
     },
     {
       "path": "firmware/adc/bsp.tcl",
@@ -129,8 +129,8 @@
     },
     {
       "path": "firmware/adc/README.md",
-      "bytes": 2436,
-      "sha256": "C9F9F0A4206A453C3DD80C61469897051C1B9C9BFD308B4EB24C606BDCDF58F2"
+      "bytes": 2416,
+      "sha256": "F9D7EE6DDB362026932C3A9F5B3EB856815D52238B274571067231D6E6328A70"
     },
     {
       "path": "firmware/adc_live/board_adc_live.c",
@@ -164,8 +164,8 @@
     },
     {
       "path": "firmware/board_init_helpers.tcl",
-      "bytes": 3169,
-      "sha256": "C9AC48C6C33C1EA113A152892180CA6C6F7EB54B19FBFB96240C190BF9122262"
+      "bytes": 3137,
+      "sha256": "7F6AF26868F879CC0E10204146F534FE4B8237F9199D9FBD13FF7D10E9904451"
     },
     {
       "path": "firmware/boot/qspi_probe.c",
@@ -244,8 +244,8 @@
     },
     {
       "path": "firmware/lvgl/run-board-test.ps1",
-      "bytes": 9044,
-      "sha256": "C07E735B3BD2C1543AECC5C914051E0194630415167EF7A43BD7C260E8062A65"
+      "bytes": 9034,
+      "sha256": "EC51E14C69EF6471D8FCB25748490174A3DFC786E5AD685519AE5DDF345C7321"
     },
     {
       "path": "firmware/standalone/frame_source.c",
@@ -334,8 +334,8 @@
     },
     {
       "path": "firmware/touch/boot.tcl",
-      "bytes": 1007,
-      "sha256": "45EB2B31C43DDEAC001BB4F1BF7B753ACB6C0E9C0711A028DEACA4405B63D923"
+      "bytes": 989,
+      "sha256": "51F44E8BF43ABA171222AE026D202D138EF61F0ECFF0E71ECD39DA6A6A179E01"
     },
     {
       "path": "firmware/touch/build.ps1",
@@ -389,8 +389,8 @@
     },
     {
       "path": "hardware/adc/pinmap.json",
-      "bytes": 11870,
-      "sha256": "443A40E357B4BC758D54B16009CD9870B298B89AF568D3C7092FC05327A01D37"
+      "bytes": 11858,
+      "sha256": "BA5852FFB338E2E539206205D7EDE02C1F383B70119F05EB704BF551F896F1F6"
     },
     {
       "path": "hardware/adc/rtl/adc_snapshot_core.v",
@@ -659,8 +659,8 @@
     },
     {
       "path": "hardware/constraints/sp2_v13b_j35.xdc",
-      "bytes": 2760,
-      "sha256": "401993C510C9BB38084BC4B293F737A04CB041B755A442058B0D934E5BC4BA0D"
+      "bytes": 2741,
+      "sha256": "3A79D105A6524C731B1258891315A9E74C91C63F912547661C6AD5477BF4B704"
     },
     {
       "path": "hardware/ps/build.ps1",
@@ -824,13 +824,13 @@
     },
     {
       "path": "NOTICE.md",
-      "bytes": 2046,
-      "sha256": "030A2E4BBC290B3763B014A9115D7BFD9BF8566244F556C3BCC862308C493125"
+      "bytes": 2013,
+      "sha256": "6DD28C11CDB4A3BB08B6F19953810D919827BE9E0BA815C4B528B609E4B83877"
     },
     {
       "path": "README.md",
-      "bytes": 2867,
-      "sha256": "D00358F3B027E73DC8F8D0B19EA6E871E8434BDA1CEC9B9ECF9A5425D03ACF8D"
+      "bytes": 2811,
+      "sha256": "0BBD01E1C69555AC352571E79BCD60203DFDB8B7A426EF03FFD94E852E88E10B"
     },
     {
       "path": "release/application.elf",
@@ -8194,8 +8194,8 @@
     },
     {
       "path": "scripts/audit_sources.py",
-      "bytes": 1727,
-      "sha256": "90A2E9FD910AA781FAFDEFDE8DBAEBFAFC5B7E465A59E18C64D85F517B438272"
+      "bytes": 1653,
+      "sha256": "BCA55F54E0AE727AA267EE3DADD8649A4EF57BE7700384EDD0B207CD518472F0"
     },
     {
       "path": "scripts/audit_spectrum_evidence.py",
@@ -8244,8 +8244,8 @@
     },
     {
       "path": "scripts/calibration_session_helpers.ps1",
-      "bytes": 4169,
-      "sha256": "DE3AF55494DFC259EFB15E262A5B494E294747ACBD96E9560F47CBCC0185E06C"
+      "bytes": 4168,
+      "sha256": "B81307EB789CE236A892C05468FD27F9A0484A2437B8F58FEA46EE15D661F284"
     },
     {
       "path": "scripts/channel_session_helpers.ps1",
@@ -8319,13 +8319,13 @@
     },
     {
       "path": "scripts/highspeed_25m_session_helpers.ps1",
-      "bytes": 7184,
-      "sha256": "439C9D0811F06EC92B36D3DF65F4621143CBE537E95DB69B09FD987B4F337B36"
+      "bytes": 7176,
+      "sha256": "C672A19DBB6A1370AB1CB886490F98E91AA1B6D9A0086BE2F82E035A11CC4E42"
     },
     {
       "path": "scripts/highspeed_50m_session_helpers.ps1",
-      "bytes": 8299,
-      "sha256": "0F84C91BBCB653FD02339F514F0DFBAD8721A55D4DC4887B8A9BD191F660D041"
+      "bytes": 8291,
+      "sha256": "0638CBAA739AA65751972C8B0748A8FF5EF458AEA66BD42053C9C1EA1141213E"
     },
     {
       "path": "scripts/long_timebase_session_helpers.ps1",
@@ -8354,8 +8354,8 @@
     },
     {
       "path": "scripts/measurement_session_helpers.ps1",
-      "bytes": 5491,
-      "sha256": "0D54F45385925A2C59B575E93243EFD1648CA969F73D6702576E68E98E30BCCB"
+      "bytes": 5486,
+      "sha256": "F57D6B7F779B7FC2187933670B616B1FC72C1EFFED3348A42C5E4FAA60FA8F6E"
     },
     {
       "path": "scripts/memory_session_helpers.ps1",
@@ -8464,33 +8464,33 @@
     },
     {
       "path": "scripts/run_acq_ui_board_test.ps1",
-      "bytes": 15131,
-      "sha256": "9A7C4E2CCA80B29738D78C737088D6E3AE25AC7440F211842AC7EE85CC4F9F05"
+      "bytes": 15098,
+      "sha256": "519D1F89514D18BB344502615EF0AD5631104C2DE86263791C9A558253219B55"
     },
     {
       "path": "scripts/run_acq_ui_negative_controls.ps1",
-      "bytes": 3354,
-      "sha256": "CD61BE132219759C8E0505A2C36A1E13E2DDBA63B5007C5AAB3F9B0595FF2A5B"
+      "bytes": 3357,
+      "sha256": "ACD1CCAA949F6368ED013D82B14D732DDE724C8EDFF745D59DA0E17A46FB8C6F"
     },
     {
       "path": "scripts/run_adc_internal_board_test.ps1",
-      "bytes": 6078,
-      "sha256": "55206A65AFDEA8F780785E5723CC8B731ED94ECAED38128B27101D66E76AD2FB"
+      "bytes": 6058,
+      "sha256": "42B3255A9FC92C5D7663B51CDB3B6D181DFDF765C98964C64785DB3025B9C458"
     },
     {
       "path": "scripts/run_adc_live_board_test.ps1",
-      "bytes": 7129,
-      "sha256": "D460321F4A800B3D32A417CCF92D69BB6FBD0BCC98031E169BF17A783CC58169"
+      "bytes": 7096,
+      "sha256": "E2D8F9CDCDC4ACA97DF1B9B156254B68599ABBF0A2B9C1551C628BC4C7ACE92F"
     },
     {
       "path": "scripts/run_highspeed25_phase_trial.ps1",
-      "bytes": 9978,
-      "sha256": "99F4CDE1B9EBCE641020BF021B0061B8B30A3607E0200CC108675ACB2F707288"
+      "bytes": 9976,
+      "sha256": "B7A30F85E28D4171D859E92B4019BB807B9B2A087F117A5CAEFCB6D17E11CAE3"
     },
     {
       "path": "scripts/run_highspeed50_phase_trial.ps1",
-      "bytes": 14563,
-      "sha256": "DB4D9561F4C6699566E646EF2B1A107DE9FE561686D95CDF9457BD3FD3E8BD83"
+      "bytes": 14561,
+      "sha256": "4B8161AD38C6F948B3B823FCD8F2075C672DFCCBA6D439A0390F88502A0F1E5B"
     },
     {
       "path": "scripts/run_long_timebase_lowfreq_test.ps1",
@@ -8499,28 +8499,28 @@
     },
     {
       "path": "scripts/run_panel_firstlight.ps1",
-      "bytes": 4763,
-      "sha256": "5CAA63B0CB6C1421E69B18F7B4A49432225523F719035C450E4176994617CA90"
+      "bytes": 4727,
+      "sha256": "EEC4EB1F27C3A553703C22E57D39C6651BB6EB7D92D8E0E870C5068348D2D1C6"
     },
     {
       "path": "scripts/run_settings_board.ps1",
-      "bytes": 2366,
-      "sha256": "F257B39356FB1C34C89F05C6567EB2C0E9FB81637155B836992863B5DCB2BA61"
+      "bytes": 2364,
+      "sha256": "52943FFB7F4035E0B49EE744763402CD1D41736BC915EE11E6A54798E8073EE5"
     },
     {
       "path": "scripts/run_spectrum_board.ps1",
-      "bytes": 2945,
-      "sha256": "9135205071D0B08E1731514B2E91DFF0435F539CFA60C2E349A076F50F748550"
+      "bytes": 2868,
+      "sha256": "0C12BBB38B247CBA7C55A1F4D8875E8361B2F0E8D4DD8B5E37B09D0AE38C3A3D"
     },
     {
       "path": "scripts/run_timing_board.ps1",
-      "bytes": 2751,
-      "sha256": "B8C745E40F7D0484DA896DC0BC5DF16EFC0EDA467A8BFA9F868862B9B4E649D6"
+      "bytes": 2671,
+      "sha256": "786D9DD79EC3C87145F49F6C9E151532E64BD94CBD611593F8B63D09F769F3E5"
     },
     {
       "path": "scripts/run_touch_board_test.ps1",
-      "bytes": 6064,
-      "sha256": "A862DACDA1810C742B6B5BAFA0BD2049A235D6AE2FDF3398AB9C064C6E62D6CB"
+      "bytes": 6053,
+      "sha256": "A8985A73C8C709E45BE6C22D641C4BCA42CDE0DDD02CD4CAE2B896914B45CD87"
     },
     {
       "path": "scripts/run_zero_markers_board.ps1",
@@ -8534,8 +8534,8 @@
     },
     {
       "path": "scripts/settings_session_helpers.ps1",
-      "bytes": 14641,
-      "sha256": "9049EC6BD00244A7C5898B4D559098CBC4DF5CC6A9B45FC83FC6178017DCECD5"
+      "bytes": 14632,
+      "sha256": "7DFE30DD4ACACC90BEA5831307E8F0AAC477DB32DF627914E6330941BC5C8EC9"
     },
     {
       "path": "scripts/siglent_output.py",
@@ -8554,8 +8554,8 @@
     },
     {
       "path": "scripts/spectrum_session_helpers.ps1",
-      "bytes": 13407,
-      "sha256": "7854A6AF3D3B767602CE5B6479FC3C08BB4BC469FBB80C5C1C67B3D174A4959C"
+      "bytes": 13330,
+      "sha256": "CCE8523A8C21545A13BC81D013CE020E1D20A54624571372CDFA0813E40235CB"
     },
     {
       "path": "scripts/storage_session_helpers.ps1",
@@ -8675,7 +8675,7 @@
     {
       "path": "scripts/zero_markers_session_helpers.ps1",
       "bytes": 2831,
-      "sha256": "CA3D2038B041B362A4B59E384A36D8994ABDE44611353784596E682F3C5032A0"
+      "sha256": "4E6AE7D2B0608F7396C833381888B9A028D26BCF3E48CB293B3F027ABBF18275"
     },
     {
       "path": "src/fonts/scope_font_14.c",

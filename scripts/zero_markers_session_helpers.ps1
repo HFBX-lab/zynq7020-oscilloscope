@@ -1,4 +1,4 @@
-# Runs inside the existing authorized UART/JTAG session; no new clock/platform.
+# Uses the parent UART/JTAG connections without changing the clock or platform.
 function Test-ZeroMarkerControls {
  $prior=$state.long_records;$state.zero_marker_records=@();$state.zero_marker_checks=@();$state.long_records=@()
  try{

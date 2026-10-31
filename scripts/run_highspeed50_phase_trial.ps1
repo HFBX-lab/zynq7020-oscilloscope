@@ -1,10 +1,10 @@
-# User-authorized temporary PL/RAM experiments; NEVER Flash.
+# Phase experiments using temporary PL/RAM state; no Flash writes.
 param([ValidateRange(0,359)][int]$PhaseDeg=195,[string]$InputDescription='',
  [string]$PhaseDirectory='D:/FPGA_Project/SP2_Highspeed_Build/50m/phase-candidates',
  [string]$BoardRoot='D:/FPGA_Project/SP2_Highspeed_Build/50m/phase-board',[switch]$IncludeSlowProfiles,
  [string]$DiagnosticClockManifest='',[string]$DiagnosticPhaseManifest='')
 $ErrorActionPreference='Stop'
-if(!$InputDescription){throw 'User-confirmed input description required'}
+if(!$InputDescription){throw 'Input signal description required'}
 if($IncludeSlowProfiles -and $PhaseDeg -ne 195){throw 'Slow profile regression belongs to final nominal restore only'}
 if($DiagnosticClockManifest -and ($IncludeSlowProfiles -or $PhaseDeg -ne 195)){throw 'Clock diagnosis must keep phase195 and skip slow regression'}
 if($DiagnosticPhaseManifest -and ($IncludeSlowProfiles -or $DiagnosticClockManifest)){throw 'Phase eye diagnosis cannot mix experiments'}

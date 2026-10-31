@@ -1,4 +1,4 @@
-# Invoke only in an explicitly authorized panel JTAG session. No Flash commands.
+# Manual panel JTAG test; no Flash commands.
 param([Parameter(Mandatory=$true)][ValidateSet('colorbars','lvgl')][string]$Stage)
 $ErrorActionPreference='Stop'
 $root=Split-Path $PSScriptRoot -Parent

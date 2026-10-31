@@ -1,6 +1,6 @@
 # Procedure definitions only. Sourcing does not connect, reset, program, or access
-# hardware. Run these only in a separately user-authorized board-debug session.
-# First source the ps7_init.tcl extracted from THIS delivery's final XSA.
+# hardware. Invoke the procedures explicitly in a board-debug session.
+# First source ps7_init.tcl from the matching XSA.
 proc sp2_silicon_suffix {} {
     foreach name {PCW_SILICON_VER_1_0 PCW_SILICON_VER_2_0 PCW_SILICON_VER_3_0} {
         if {![info exists ::$name]} {error "Source the matching generated ps7_init.tcl first"}

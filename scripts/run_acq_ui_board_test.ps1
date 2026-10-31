@@ -1,4 +1,4 @@
-# Manual current-session authorization required. No Flash. -PrepareOnly is offline.
+# Temporary PL/RAM board test. No Flash writes. -PrepareOnly is offline.
 param([switch]$PrepareOnly,[string]$InputDescription='',
  [string]$FirmwareDirectory='build/acq-ui-firmware/freertos',
  [string]$BoardRoot='D:/FPGA_Project/SP2_Trigger_Build/board',
@@ -8,7 +8,7 @@ param([switch]$PrepareOnly,[string]$InputDescription='',
  [string]$PlacementFile='D:/FPGA_Project/SP2_ADC_Live_Build/io-audit/capture-placements.csv',
  [switch]$SpectrumRetest,[string]$PriorSpectrumRun='',[switch]$Timing)
 $ErrorActionPreference='Stop'
-if(!$PrepareOnly -and !$InputDescription){throw 'Actual user-confirmed analog input description required'}
+if(!$PrepareOnly -and !$InputDescription){throw 'Analog input description required'}
 $root=Split-Path $PSScriptRoot -Parent
 if($Timing){$Spectrum=$true}
 if($Spectrum){$ZeroMarkers=$true}

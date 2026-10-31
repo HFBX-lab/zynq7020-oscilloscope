@@ -1,4 +1,4 @@
-# Destructive to volatile board state: use only in an explicitly authorized JTAG session.
+# Replaces volatile board state through JTAG; verify the target before running.
 # Resets the board and loads RAM/PL. Never writes Flash/QSPI.
 param([ValidateSet('standalone','freertos')][string]$OS='standalone')
 $ErrorActionPreference='Stop'

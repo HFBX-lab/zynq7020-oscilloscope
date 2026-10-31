@@ -1,4 +1,4 @@
-# Current-session continuation authorization; temporary PL/RAM, no SD/Flash.
+# Settings board test using temporary PL/RAM state; no SD or Flash writes.
 param([switch]$PrepareOnly)
 $ErrorActionPreference='Stop'
 $root=Split-Path $PSScriptRoot -Parent

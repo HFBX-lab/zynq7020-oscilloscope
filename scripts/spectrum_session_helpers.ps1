@@ -1,5 +1,5 @@
-# Executes only within the authorized parent UART/JTAG session.
-$SpectrumPython='C:/Users/BUILD_USER/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe'
+# FFT helpers share the parent runner UART/JTAG connections.
+$SpectrumPython='D:/Python/python.exe'
 function Convert-SpectrumStatusFrame([string]$Body){
  $h=[regex]::Matches($Body,'(?m)^FFT_STATUS [^\r\n]+\r?\n');$v=[regex]::Matches($Body,'(?m)^FFT_VALUES [^\r\n]+\r?\n');$e=[regex]::Matches($Body,'(?m)^FFT_END [^\r\n]+\r?\n')
  if($h.Count -ne 1 -or $v.Count -ne 1 -or $e.Count -ne 1){throw 'Incomplete FFT frame'}

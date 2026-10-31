@@ -1,5 +1,5 @@
-# MANUAL AUTHORIZED JTAG SESSION ONLY. Replaces volatile PL/RAM state; no Flash.
-# Start hw_server separately after explicit user authorization, then invoke.
+# Manual JTAG test. Replaces volatile PL/RAM state; no Flash writes.
+# Start hw_server in a separate process before invoking this script.
 param([switch]$PrepareOnly)
 $ErrorActionPreference='Stop'
 $root=Split-Path $PSScriptRoot -Parent

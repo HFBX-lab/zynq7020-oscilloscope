@@ -1,5 +1,5 @@
 # Source: SmartZynq_SP2_Schematic_V1d3B_20260413.pdf.pdf, p12.
-# User confirmed V1.3B + xc7z020clg484-1 + direct board RGB connector on 2026-10-20.
+# Target: SP2 V1.3B, xc7z020clg484-1, direct board RGB connector.
 create_clock -period 20.000 -name clk_50 [get_ports clk_50]
 set_property -dict {PACKAGE_PIN M19 IOSTANDARD LVCMOS33} [get_ports clk_50]
 set_property PACKAGE_PIN V7 [get_ports {lcd_r[0]}]

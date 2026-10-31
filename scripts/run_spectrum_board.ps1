@@ -1,9 +1,9 @@
-# User authorized the next M6 stage; temporary PL/RAM only, no SD/Flash.
+# FFT board test using temporary PL/RAM state; no SD or Flash writes.
 param([switch]$PrepareOnly,[string]$RetestFrom='')
 $ErrorActionPreference='Stop'
 $root=Split-Path $PSScriptRoot -Parent;Set-Location -LiteralPath $root
 $out='D:/FPGA_Project/SP2_Spectrum_Build';$success=$false
-$SpectrumPython='C:/Users/BUILD_USER/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe'
+$SpectrumPython='D:/Python/python.exe'
 $checkpoint=@{state='running';started_utc=[DateTime]::UtcNow.ToString('o');flash_written=$false;sd_used=$false}
 try{
  & ./scripts/run_acq_ui_board_test.ps1 -PrepareOnly:$PrepareOnly -Spectrum -SpectrumRetest:([bool]$RetestFrom) -PriorSpectrumRun $RetestFrom -FirmwareDirectory build/settings-ui-firmware-spectrum/freertos -HardwareDirectory build/highspeed-50m-soc -RtlDirectory build/highspeed-50m-rtl -PlacementFile D:/FPGA_Project/SP2_Highspeed_Build/50m/io-audit/capture-placements.csv -BoardRoot "$out/board" -InputDescription 'CH2/IN2 sine50kHz1Vpp fixed+.5VDC common ground; no input adjustment; readonly current program confirmed approx50kHz; original volatile slots backed up before power cycle'

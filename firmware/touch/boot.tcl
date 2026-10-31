@@ -1,4 +1,4 @@
-# Called only by the explicitly authorized physical-touch session runner.
+# Entry point for the physical-touch board-test runner.
 if {[catch {
 connect -url tcp:127.0.0.1:3121
 if {[string first "HelloFpga JTAG-SP2 YOUR_CABLE_SERIAL" [jtag targets]]<0} {error "Expected cable absent"}

@@ -6,7 +6,7 @@ import fitz
 
 root = Path(__file__).resolve().parents[1]
 source = Path(r'D:\FPGA_Project\Smart_ZYNQ_SP2_information')
-paths = [Path(r'C:/Users/BUILD_USER\Documents\Codex\2026-10-16\new-chat\outputs\Zynq7020示波器项目_新项目交接说明.md'),
+paths = [Path(r'D:/external-reference/project-notes.md'),
          source/'SmartZynq_SP2_Schematic_V1d3B_20260413.pdf.pdf',
          next(source.rglob('ATK-MD0700R模块用户手册_V1.2.pdf')),
          next(source.rglob('ATK-MD0700R_V1.6.pdf')),

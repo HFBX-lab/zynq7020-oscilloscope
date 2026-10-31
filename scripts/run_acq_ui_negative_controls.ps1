@@ -1,4 +1,4 @@
-﻿# Current authorized session, UART commands only; no JTAG or Flash access.
+﻿# Acquisition negative controls using UART commands; no JTAG or Flash access.
 $ErrorActionPreference='Stop'
 $root=Split-Path $PSScriptRoot -Parent
 . "$root/scripts/acq_ui_session_helpers.ps1"

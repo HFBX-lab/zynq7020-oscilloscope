@@ -15,7 +15,7 @@
   "banks": {
     "33": {
       "base_header": "J6",
-      "io_voltage": "3.3V user-confirmed; not physically measured",
+      "io_voltage": "3.3V reported; not physically measured",
       "signals": [
         {
           "port": "ad_clk_1",
@@ -229,7 +229,7 @@
     },
     "35": {
       "base_header": "J5",
-      "io_voltage": "3.3V user-confirmed; not physically measured",
+      "io_voltage": "3.3V reported; not physically measured",
       "signals": [
         {
           "port": "ad_clk_1",

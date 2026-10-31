@@ -1,9 +1,9 @@
-# User-authorized temporary PL/RAM experiments; NEVER Flash.
+# Phase experiments using temporary PL/RAM state; no Flash writes.
 param([ValidateSet(300,315,330)][int]$PhaseDeg=315,[string]$InputDescription='',
  [string]$PhaseDirectory='D:/FPGA_Project/SP2_Highspeed_Build/25m/phase-candidates',
  [string]$BoardRoot='D:/FPGA_Project/SP2_Highspeed_Build/25m/phase-board')
 $ErrorActionPreference='Stop'
-if(!$InputDescription){throw 'User-confirmed input description required'}
+if(!$InputDescription){throw 'Input signal description required'}
 $root=Split-Path $PSScriptRoot -Parent
 $firmware="$root/build/highspeed-25m-ui-firmware/freertos"
 $hardware="$root/build/highspeed-25m-soc"

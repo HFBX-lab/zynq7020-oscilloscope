@@ -1,7 +1,7 @@
-﻿# Manual current-session authorization required. No Flash. -PrepareOnly is offline.
+﻿# Temporary PL/RAM board test. No Flash writes. -PrepareOnly is offline.
 param([switch]$PrepareOnly,[string]$InputDescription='')
 $ErrorActionPreference='Stop'
-if(!$PrepareOnly -and !$InputDescription){throw 'Actual user-confirmed analog input description required'}
+if(!$PrepareOnly -and !$InputDescription){throw 'Analog input description required'}
 $root=Split-Path $PSScriptRoot -Parent
 . "$root/scripts/touch_uart_checks.ps1"
 . "$root/scripts/adc_live_session_helpers.ps1"

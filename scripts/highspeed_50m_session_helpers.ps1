@@ -1,4 +1,4 @@
-# M3-C controls use only the authorized runner's owned serial/server session.
+# 50M controls share the parent runner serial and server connections.
 # Required input: CH2/IN2 sine50kHz,1Vpp,+.5VDC,common ground.
 function Assert-Highspeed50MRecord($s,[int]$Index,[bool]$Frozen=$true){
  Assert-HardwareRecord $s $true

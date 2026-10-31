@@ -1,4 +1,4 @@
-# Manual current-session authorization required. No Flash. -PrepareOnly is offline.
+# Temporary PL/RAM board test. No Flash writes. -PrepareOnly is offline.
 param([switch]$PrepareOnly)
 $ErrorActionPreference='Stop'
 $root=Split-Path $PSScriptRoot -Parent

@@ -19,7 +19,7 @@ memory inspection. Publication to build/adc-firmware happens only after success.
 All LOAD segments, heap and CPU stacks must fit below 0x01000000; the main stack
 is 128 KiB. The build performs no JTAG connection, reset, loading or Flash write.
 
-If separately authorized and run on the matching candidate platform, the app
+When run on the matching internal-test platform, the app
 initializes UART/DDR and the existing video pipeline, checks ABI at 0x43C10000,
 then performs two 4096-word internal digital captures, validates every word, and
 flushes the 16 KiB exports at 0x13000000 and 0x13004000 for later DDR extraction.

@@ -1,12 +1,12 @@
-# Authorized M4 timing extension; regression includes accepted features, no SD/Flash.
+# Timing measurements and feature regression using temporary RAM; no SD/Flash writes.
 param([switch]$PrepareOnly)
 $ErrorActionPreference='Stop'
 $root=Split-Path $PSScriptRoot -Parent;Set-Location -LiteralPath $root
 $out='D:/FPGA_Project/SP2_Timing_Build';$success=$false
-$python='C:/Users/BUILD_USER/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe'
+$python='D:/Python/python.exe'
 $checkpoint=@{state='running';flash_written=$false;sd_used=$false;started_utc=[DateTime]::UtcNow.ToString('o')}
 try{
- & ./scripts/run_acq_ui_board_test.ps1 -PrepareOnly:$PrepareOnly -Timing -FirmwareDirectory build/timing-ui-firmware/freertos -HardwareDirectory build/highspeed-50m-soc -RtlDirectory build/highspeed-50m-rtl -PlacementFile D:/FPGA_Project/SP2_Highspeed_Build/50m/io-audit/capture-placements.csv -BoardRoot "$out/board" -InputDescription 'User confirmed reboot then CH2 sine50kHz1Vpp+.5VDC; accepted M6 restored and immediate CH2 approx50kHz verified; existing common-ground wiring retained; no TF/pro source'
+ & ./scripts/run_acq_ui_board_test.ps1 -PrepareOnly:$PrepareOnly -Timing -FirmwareDirectory build/timing-ui-firmware/freertos -HardwareDirectory build/highspeed-50m-soc -RtlDirectory build/highspeed-50m-rtl -PlacementFile D:/FPGA_Project/SP2_Highspeed_Build/50m/io-audit/capture-placements.csv -BoardRoot "$out/board" -InputDescription 'Historical setup: CH2 sine 50kHz, 1Vpp, +0.5VDC, common ground; FFT baseline restored and approximately 50kHz observed; no TF card or professional signal generator'
  if($LASTEXITCODE){throw 'Timing board runner failed'}
  if($PrepareOnly){$success=$true;$checkpoint.state='prepared-offline';return}
  $run=(Get-Content build/timing-ui-firmware/freertos/board-session.json -Raw|ConvertFrom-Json).run;$checkpoint.run=$run

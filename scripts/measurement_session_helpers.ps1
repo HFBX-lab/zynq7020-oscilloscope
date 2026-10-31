@@ -1,4 +1,4 @@
-# Run only inside the authorized acquisition runner's owned UART/JTAG session.
+# Measurement helpers share the acquisition runner UART/JTAG connections.
 function Read-MeasurementState {
  [void](Invoke-AcqCommand '__query_boundary__' '(?m)^COMMANDS:[^\r\n]+\r?\n')
  $begin=$captured.Length

@@ -1,4 +1,4 @@
-# Used only within the authorized parent runner's owned UART/JTAG session.
+# Settings helpers share the parent runner UART/JTAG connections.
 function Convert-ParameterStatusFrame([string]$Body){
  $heads=[regex]::Matches($Body,'(?m)^PARAM_STATUS [^\r\n]+\r?\n');$configs=[regex]::Matches($Body,'(?m)^PARAM_CONFIG [^\r\n]+\r?\n');$ends=[regex]::Matches($Body,'(?m)^PARAM_END [^\r\n]+\r?\n')
  if($heads.Count -ne 1 -or $configs.Count -ne 1 -or $ends.Count -ne 1){throw 'Incomplete parameter frame'}

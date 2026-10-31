@@ -1,4 +1,4 @@
-# Offline parsers; hardware operations use only the authorized parent session.
+# Offline parsers and hardware helpers sharing the parent runner connections.
 function Convert-CalibrationStatusFrame([string]$Body){
  $lines=[regex]::Matches($Body,'(?m)^CALIBRATION_[^\r\n]+\r?\n')
  if($lines.Count -ne 5){throw 'Incomplete calibration transaction'}
